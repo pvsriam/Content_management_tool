@@ -1,0 +1,101 @@
+.content_management{
+  font-family: 'Roboto', sans-serif;
+  font-size:35px;
+  color: black;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  border: solid rgb(255, 255, 255) 20px;
+  color: #ffffff;
+  border-radius: 20px;
+  background-color:-moz-only-whitespace;
+}
+h1 {
+  font-size: 28px;
+  margin: 10px 0;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  text-align: center;
+}
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+#addForm,
+#ReportTable {
+  background-color: rgb(12, 50, 167);
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+}
+input[type="text"],
+textarea {
+  width: 100%;
+  background-color:wheat;
+  color:black;
+  border: solid gray;
+  margin-bottom: 10px;
+}
+textarea#content {
+  padding-bottom: 200px;
+}
+button {
+  padding: 20px 30px;
+  background-color:rgb(255, 0, 106);
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border:solid  black;
+  transition: transform 0.8s;
+}
+button.btn-delete {
+  background-color: #f44336;
+  
+}
+button:hover {
+  opacity: 0.8s;
+  transform: scale(1.1);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color:black;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+th {
+  background-color: #111;
+  cursor: pointer;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-title {
+  cursor: pointer;
+}
+.article-content {
+  display: none;
+  padding: 10px;
+  background-color: #333;
+  white-space: pre;
+  margin-top: 10px;
+}
+.options {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  margin-bottom: 10px;
+}
